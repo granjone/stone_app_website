@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DIYBrick – Digital Wellbeing & Focus App</title>
+  <style>
+    :root {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        system-ui, -system-ui, sans-serif;
+      color-scheme: light dark;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .page {
+      max-width: 720px;
+      width: 100%;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.96);
+      border-radius: 20px;
+      padding: 2.25rem 2rem;
+      box-shadow: 0 22px 45px rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin-top: 1.7rem;
+      margin-bottom: 0.4rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0.35rem 0;
+      color: #cbd5f5;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: #9ca3af;
+      margin-bottom: 1.2rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.35rem 0.7rem;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.08);
+      color: #7dd3fc;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      margin-bottom: 1.1rem;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: #22c55e;
+    }
+
+    ul {
+      margin: 0.3rem 0 0.7rem 1.2rem;
+      padding: 0;
+      color: #cbd5f5;
+    }
+
+    li {
+      margin: 0.2rem 0;
+      line-height: 1.5;
+    }
+
+    .contact {
+      margin-top: 1.4rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(148, 163, 184, 0.35);
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 1.75rem 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-label="DIYBrick app overview">
+      <div class="badge">
+        <span class="dot"></span>
+        Digital Wellbeing & Focus
+      </div>
+
+      <h1>DIYBrick</h1>
+      <p class="tagline">
+        A digital wellbeing and focus-management app that helps users reduce
+        distractions by temporarily limiting access to selected apps and
+        categories during scheduled focus sessions.
+      </p>
+
+      <h2>What DIYBrick Does</h2>
+      <p>
+        DIYBrick uses Apple's Screen Time technologies to let users, parents,
+        or guardians create distraction-free periods on iPhone and iPad.
+        During a focus session, selected apps and categories are limited so
+        that only what is essential for work, study, or rest remains
+        available.
+      </p>
+
+      <p>
+        The app integrates with the FamilyControls, ManagedSettings, and
+        DeviceActivity frameworks to:
+      </p>
+      <ul>
+        <li>Request authorization to manage Screen Time settings.</li>
+        <li>
+          Allow users or guardians to select which apps and categories should
+          be restricted.
+        </li>
+        <li>
+          Apply system-level shields to the chosen apps during active focus
+          sessions.
+        </li>
+        <li>
+          Schedule, start, and end focus windows based on user-defined rules.
+        </li>
+      </ul>
+
+      <h2>Privacy & Safety</h2>
+      <p>
+        DIYBrick is designed solely for user-directed digital wellbeing and
+        optional parental control within a Family Sharing context.
+      </p>
+      <ul>
+        <li>
+          Screen Time–related data is processed <strong>on-device</strong>.
+        </li>
+        <li>
+          The app does not access the content of messages, emails, web pages,
+          or personal files.
+        </li>
+        <li>
+          Data is not used for advertising, analytics, or profiling.
+        </li>
+        <li>
+          Authorization can be revoked at any time from within the app or
+          through system settings.
+        </li>
+      </ul>
+
+      <h2>Intended Use</h2>
+      <p>
+        DIYBrick is intended for individuals and families who want to build
+        healthier device habits, create study or work blocks, and reduce
+        time spent in distracting apps. It is <strong>not</strong> designed or
+        marketed for employee monitoring or any covert tracking scenario.
+      </p>
+
+      <div class="contact">
+        <p><strong>Support & Contact</strong></p>
+        <p>
+          For questions or support regarding DIYBrick, please contact:<br />
+          <a href="mailto:gtj4@pitt.edu">gtj4l@pitt.edu</a>
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
